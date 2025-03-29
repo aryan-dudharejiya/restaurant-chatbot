@@ -1,0 +1,8 @@
+# Ignore environment variables
+.env
+
+# Ignore Google credentials
+google-credentials.json
+
+# Ignore dependencies
+node_modules/
