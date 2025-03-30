@@ -11,7 +11,7 @@ if (!process.env.GOOGLE_CREDENTIALS) {
 }
 
 export const config = {
-  port: process.env.PORT || 3000,
+  port: process.env.PORT || 4000,
   sheetId: process.env.SHEET_ID,
   googleCredentials: JSON.parse(process.env.GOOGLE_CREDENTIALS), // Now using ENV instead of a file
 };
