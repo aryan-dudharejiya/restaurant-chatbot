@@ -1,20 +1,25 @@
 {
   "name": "chatbot",
   "version": "1.0.0",
+  "description": "A restaurant chatbot that handles reservations and FAQs.",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["chatbot", "restaurant", "whatsapp", "google-sheets"],
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "body-parser": "^2.2.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "googleapis": "^148.0.0",
     "twilio": "^5.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
